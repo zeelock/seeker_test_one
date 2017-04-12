@@ -90,7 +90,7 @@ var track = function(){
     b[i].v.setMag(3);
      steer.setMag(0.01);
 
-   if(d < random(100 , 250)){
+   if(d < random(rnadom(width*0.5))){
 
     this.acc.sub(steer);
     
